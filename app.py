@@ -198,12 +198,12 @@ with st.sidebar:
                          icons=['person fill',  'lightbulb' , 'globe', 'clock history', 'tools', 'book half', 'clipboard', 'heart', 'paperclip',  'envelope'],
                          menu_icon="mortarboard", 
                          default_index=0
-                         """styles={
-        "container": {"padding": "0!important", "background-color": "#f5f5dc"},
-        "icon": {"color": "darkorange", "font-size": "20px"}, 
-        "nav-link": {"font-size": "17px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
-        "nav-link-selected": {"background-color": "#cfcfb4"},
-    }"""
+                         #styles={
+        #"container": {"padding": "0!important", "background-color": "#f5f5dc"},
+        #"icon": {"color": "darkorange", "font-size": "20px"}, 
+        #"nav-link": {"font-size": "17px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+        #"nav-link-selected": {"background-color": "#cfcfb4"},
+    #}
     )
     linkedin_url = "https://www.linkedin.com/in/amen-berrjeb-639101256/"
     github_url = "https://github.com/berrejebamen"
