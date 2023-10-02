@@ -164,21 +164,21 @@ def txt4(a, b):
     st.markdown(f'<p style="font-size: 25px; color: red;"><code>{b}</code></p>', unsafe_allow_html=True)
 
 #####################
-#def add_bg_from_local(image_file):
-    #with open(image_file, "rb") as image_file:
-        #encoded_string = base64.b64encode(image_file.read())
-    #st.markdown(
-    #f"""
-    #<style>
-    #.stApp {{
-       # background-image: url(data:image/{"png"};base64,{encoded_string.decode()});
-       # background-size: cover
-    #}}
-    #</style>
-    #""",
-   # unsafe_allow_html=True
-   # )
-#add_bg_from_local('bg.png') 
+def add_bg_from_local(image_file):
+    with open(image_file, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read())
+    st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url(data:image/{"png"};base64,{encoded_string.decode()});
+        background-size: cover
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+    )
+add_bg_from_local('bg.png')   
 
 
 # Sidebar: If using streamlit_option_menu
@@ -188,7 +188,7 @@ with st.sidebar:
         with l:
             st.empty()
         with m:
-            st.image(img_lh, width=195)
+            st.empty()
         with r:
             st.empty()
     
@@ -302,7 +302,7 @@ elif choose == "Technical Skills":
 
 elif choose == "Education":
     st.header("Education")
-    selected_options = ["Summary", "Modules of this Year : 2023/2024"]
+    selected_options = ["Summary", "Modules"]
     selected = st.selectbox("Which section would you like to read?", options = selected_options)
     st.write("Current selection:", selected)
     if selected == "Summary":
