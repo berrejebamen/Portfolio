@@ -178,7 +178,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-/add_bg_from_local('bg.png') 
+add_bg_from_local('bg.png') 
 
 
 # Sidebar: If using streamlit_option_menu
