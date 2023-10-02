@@ -197,7 +197,7 @@ with st.sidebar:
                         ["About Me", "Papers That Inspire Me","My Research Paper", "Experience", "Technical Skills", "Education", "Projects", "Extra Academic Activities", "Resume",  "Contact"],
                          icons=['person fill',  'lightbulb' , 'globe', 'clock history', 'tools', 'book half', 'clipboard', 'heart', 'paperclip',  'envelope'],
                          menu_icon="mortarboard", 
-                         default_index=0,
+                         default_index=0
                          """styles={
         "container": {"padding": "0!important", "background-color": "#f5f5dc"},
         "icon": {"color": "darkorange", "font-size": "20px"}, 
