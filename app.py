@@ -56,11 +56,11 @@ def render_lottie(url, width, height):
     return lottie_html
 
 # Use local CSS
-def local_css(file_name):
+"""def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style.css")
+#local_css("style.css")"""
 
 footer = """
 footer{
@@ -164,7 +164,7 @@ def txt4(a, b):
     st.markdown(f'<p style="font-size: 25px; color: red;"><code>{b}</code></p>', unsafe_allow_html=True)
 
 #####################
-def add_bg_from_local(image_file):
+"""def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
     st.markdown(
@@ -178,7 +178,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('bg.png')   
+add_bg_from_local('bg.png')  """ 
 
 
 # Sidebar: If using streamlit_option_menu
