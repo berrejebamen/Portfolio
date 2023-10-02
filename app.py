@@ -302,7 +302,7 @@ elif choose == "Technical Skills":
 
 elif choose == "Education":
     st.header("Education")
-    selected_options = ["Summary", "Modules"]
+    selected_options = ["Summary", "Modules of this Year : 2023/2024"]
     selected = st.selectbox("Which section would you like to read?", options = selected_options)
     st.write("Current selection:", selected)
     if selected == "Summary":
