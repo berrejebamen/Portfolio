@@ -628,4 +628,18 @@ elif choose == "Contact":
         with image_column:
             st.image(img_utown)
 st.markdown("*Copyright © 2023 Amen Allah Berrejeb*")
-
+st.markdown("""
+    <style>
+        /* Hide the 'Made with Streamlit' footer */
+        .reportview-container .main .block-container {
+            margin-bottom: 0rem;
+        }
+        .reportview-container .main footer {
+            visibility: hidden;
+        }
+        /* Hide the hamburger menu */
+        header .decoration {
+            display: none;
+        }
+    </style>
+    """, unsafe_allow_html=True)
