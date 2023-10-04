@@ -313,8 +313,8 @@ elif choose == "Education":
             with image_column:
                 st.image(img_nus)
             with text_column:
-                st.subheader("Information and Communication Technologies Engineering Degree - [Telecommunications](http://www.enit.rnu.tn/fr/diverses/arrete.25.04.17.php), [National Engineering School Of Tunis](http://www.enit.rnu.tn/fr/diverses/news.php) (2021-2024)")
-                st.write("Relevant Coursework: Signal Processing,  Electronics ,C, C++, JAVA, Databases, JEE, MATLAB, Statistics, Probability, Antenna, 4G, 5G,Entrepreneurship and Innovation ,PL/ SQL")
+                st.subheader("Information and Communication Technologies Engineering Degree - [Telecommunications](http://www.enit.rnu.tn/telecommunications/), [National Engineering School Of Tunis](http://www.enit.rnu.tn/) (2021-2024)")
+                st.write("Relevant Coursework: Signal Processing,  Electronics ,C, C++, JAVA, Databases, JEE, MATLAB, Statistics, Probability, 4G, 5G,Entrepreneurship and Innovation ,PL/ SQL")
         with st.container():
             image_column, text_column = st.columns((1,2.5))
             with image_column:
