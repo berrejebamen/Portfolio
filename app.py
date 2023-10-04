@@ -232,7 +232,7 @@ if choose == "About Me":
             st.write("💼 I secured a commendable rank in the Tunisian National Competitions for Entry to Engineering Training Cycles, showcasing my academic aptitude. This was followed by my significant contribution to the AI domain, marked by the publication of my research paper in the IEEE AMCAI: 1st IEEE AfroMediterranean Conference on Artificial Intelligence, titled Towards A Machine Learning based Platform for Diseases Detection: Case of Breast Cancer under the supervision of my teacher. Additionally, I undertook an enriching NLP summer internship at M&C, focusing on comparative studies of transformerbased language models for ADAD project comprehension and delving into the state-of-the-art LLMs research.")
             st.write("👨🏼‍💻 Academic interests: Data Visualization, Machine Learning Algorithms, Data science, Natural Language Processing , Computer Vision")
             st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, AI Research engineer, Machine Learning Engineer, AI Researcher")
-            st.write("📄 [Resume (2 pages)](https://drive.google.com/file/d/1DPwtSv5JUY2IRflcZX9wCfgFZFa9SR3M/view?usp=drive_link")
+            st.write("📄 [Resume (2 pages)](https://drive.google.com/file/d/1cZO1jUAa569lU6k9VFldlILICf9YqFG1/view?usp=sharing")
         with middle_column:
             st.empty()
         with right_column:
@@ -518,7 +518,7 @@ elif choose == "Extra Academic Activities":
 
 
 elif choose == "Resume":   
-    resume_url = "https://drive.google.com/file/d/1DPwtSv5JUY2IRflcZX9wCfgFZFa9SR3M/view?usp=drive_link"
+    resume_url = "https://drive.google.com/file/d/1cZO1jUAa569lU6k9VFldlILICf9YqFG1/view?usp=sharing"
     st.header("Resume")
     st.write("*In case your current browser cannot display the PDF documents, do refer to the hyperlink below!*")
 
