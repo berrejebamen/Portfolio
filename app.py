@@ -232,7 +232,7 @@ if choose == "About Me":
             st.write("💼 I secured a commendable rank in the Tunisian National Competitions for Entry to Engineering Training Cycles, showcasing my academic aptitude. This was followed by my significant contribution to the AI domain, marked by the publication of my research paper in the IEEE AMCAI: 1st IEEE AfroMediterranean Conference on Artificial Intelligence, titled Towards A Machine Learning based Platform for Diseases Detection: Case of Breast Cancer under the supervision of my teacher. Additionally, I undertook an enriching NLP summer internship at M&C, focusing on comparative studies of transformerbased language models for ADAD project comprehension and delving into the state-of-the-art LLMs research.")
             st.write("👨🏼‍💻 Academic interests: Data Visualization, Machine Learning Algorithms, Data science, Natural Language Processing , Computer Vision")
             st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, AI Research engineer, Machine Learning Engineer, AI Researcher")
-            st.write("📄 [Resume (2 pages)](https://drive.google.com/file/d/1cZO1jUAa569lU6k9VFldlILICf9YqFG1/view?usp=sharing")
+            st.write("📄 [Resume (2 pages)](https://drive.google.com/file/d/1XgeGVHhA74u5DXc14-BjtDXCdoyeZ3Zo/view?usp=sharing")
         with middle_column:
             st.empty()
         with right_column:
@@ -518,17 +518,17 @@ elif choose == "Extra Academic Activities":
 
 
 elif choose == "Resume":   
-    resume_url = "https://drive.google.com/file/d/1cZO1jUAa569lU6k9VFldlILICf9YqFG1/view?usp=sharing"
+    resume_url = "https://drive.google.com/file/d/1XgeGVHhA74u5DXc14-BjtDXCdoyeZ3Zo/view?usp=sharing"
     st.header("Resume")
     st.write("*In case your current browser cannot display the PDF documents, do refer to the hyperlink below!*")
 
     st.markdown(pdf_link(resume_url, "**Resume (2 pages)**"), unsafe_allow_html=True)
-    show_pdf("Amen_Allah_Berrejeb (3).pdf")
-    with open("Amen_Allah_Berrejeb (3).pdf", "rb") as file:
+    show_pdf("CV_Amenallah.pdf")
+    with open("CV_Amenallah.pdf", "rb") as file:
         btn = st.download_button(
             label="Download Resume (2 pages)",
             data=file,
-            file_name="CV_mitacs_europe (2).pdf",
+            file_name="CV_Amenallah.pdf",
             mime="application/pdf"
         )
 elif choose == "Contact":
