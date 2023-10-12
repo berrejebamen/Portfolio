@@ -205,7 +205,7 @@ with st.sidebar:
         #"nav-link-selected": {"background-color": "#cfcfb4"},
     #}
     )
-    linkedin_url = "https://www.linkedin.com/in/amen-berrjeb-639101256/"
+    linkedin_url = "https://www.linkedin.com/in/amen-allah-brrejeb-639101256/"
     github_url = "https://github.com/berrejebamen"
     email_url = "mailto:amenallah.berrejb@etudiant-enit.utm."
     with st.container():
@@ -616,7 +616,7 @@ elif choose == "Contact":
 
 
             st.write("Alternatively, feel free to check out my social accounts below!")
-            linkedin_url = "https://www.linkedin.com/in/amen-berrjeb-639101256/"
+            linkedin_url = "https://www.linkedin.com/in/amen-allah-brrejeb-639101256/"
             github_url = "https://github.com/berrejebamen"
             email_url = "mailto:amenallah.berrejeb@etudiant-enit.utm.tn"
             st.markdown(
