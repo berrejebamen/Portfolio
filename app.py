@@ -523,12 +523,12 @@ elif choose == "Resume":
     st.write("*In case your current browser cannot display the PDF documents, do refer to the hyperlink below!*")
 
     st.markdown(pdf_link(resume_url, "**Resume (2 pages)**"), unsafe_allow_html=True)
-    show_pdf("Amen.pdf")
-    with open("Amen.pdf", "rb") as file:
+    show_pdf("Amen (2).pdf")
+    with open("Amen (2).pdf", "rb") as file:
         btn = st.download_button(
             label="Download Resume (2 pages)",
             data=file,
-            file_name="Amen.pdf",
+            file_name="Amen (2).pdf",
             mime="application/pdf"
         )
 elif choose == "Contact":
