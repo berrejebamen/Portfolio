@@ -497,6 +497,7 @@ elif choose == "Papers That Inspire Me":
        paper_link_18 = "https://arxiv.org/pdf/1201.0490v4.pdf"  
        st.markdown(f"[{paper_name_18}]({paper_link_18})")
     elif selected_topic=="Reinforcement Learning":
+        st.header("Reinforcement Learning Papers"
        paper_name_19 = "Playing Atari with Deep Reinforcement Learning"
        paper_link_19 = "https://arxiv.org/pdf/1312.5602.pdf"  
        st.markdown(f"[{paper_name_19}]({paper_link_19})")
