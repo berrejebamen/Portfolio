@@ -228,7 +228,7 @@ if choose == "About Me":
         with left_column:
             st.header("About Me")
             st.subheader("Aspiring Data Scientist , Machine Learning Engineer , AI Research engineer")
-            st.write("👋🏻 Amenallah Berrejeb a Final year ICT engineering student at national engineering school of tunis (ENIT) , motivated and dynamic student , curious and learns quickly. I aim to grow my knowledge in Data Science sector and its subfields. Currently , I spend a lot of time learning on Coursera and DeepLearning.AI , reading machine learning papers and exploring their codes from paperswithcode.com and doing some beginner kaggle competitions.")
+            st.write("👋🏻 Amenallah Berrejeb a Final year ICT engineering student at national engineering school of tunis (ENIT) , motivated and dynamic student , curious and learns quickly. I aim to grow my knowledge in Data Science sector and its subfields. Currently , I spend a lot of time learning on Coursera and DeepLearning.AI , reading machine learning  and exploring their codes from withcode.com and doing some beginner kaggle competitions.")
             st.write("💼 I secured a commendable rank in the Tunisian National Competitions for Entry to Engineering Training Cycles, showcasing my academic aptitude. This was followed by my significant contribution to the AI domain, marked by the publication of my research paper in the IEEE AMCAI: 1st IEEE AfroMediterranean Conference on Artificial Intelligence, titled Towards A Machine Learning based Platform for Diseases Detection: Case of Breast Cancer under the supervision of my teacher. Additionally, I undertook an enriching NLP summer internship at M&C, focusing on comparative studies of transformerbased language models for ADAD project comprehension and delving into the state-of-the-art LLMs research.")
             st.write("👨🏼‍💻 Academic interests: Data Visualization, Machine Learning Algorithms, Data science, Natural Language Processing , Computer Vision")
             st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, AI Research engineer, Machine Learning Engineer, AI Researcher")
@@ -262,7 +262,7 @@ elif choose == "Experience":
             st.write("*July to August 2023 (Summer Internship)")
             st.markdown("""
             - Developing a comparative study of transformer-based language models on ADAD (M&C's project) specifications understanding
-            - Browsing the state-of-the-art of LLMs Research papers
+            - Browsing the state-of-the-art of LLMs Research 
             - Training GPT on the company's  text data 
             `Python` `Pytorch` `NLTK` `Confluence` `T5` `GPT` `BERT` `ALBERT` `Langchain` `Streamlit`
             """)
@@ -436,7 +436,7 @@ elif choose == "Projects":
               
     
 elif choose == "Papers That Inspire Me":
-    selected_topic = st.selectbox("Choose a Topic:", ["Computer Vision", "NLP", "Machine Learning"])
+    selected_topic = st.selectbox("Choose a Topic:", ["Computer Vision", "NLP", "Machine Learning", "Reinforcement Learning"])
 
     if selected_topic == "Computer Vision":
         st.header("Computer Vision Papers")
@@ -496,6 +496,11 @@ elif choose == "Papers That Inspire Me":
        paper_name_18 = "Scikit-learn: Machine Learning in Python"
        paper_link_18 = "https://arxiv.org/pdf/1201.0490v4.pdf"  
        st.markdown(f"[{paper_name_18}]({paper_link_18})")
+    elif selected_topic=="Reinforcement Learning":
+       paper_name_19 = "Playing Atari with Deep Reinforcement Learning"
+       paper_link_19 = "https://arxiv.org/pdf/1312.5602.pdf"  
+       st.markdown(f"[{paper_name_18}]({paper_link_18})")
+        
 
 
 
