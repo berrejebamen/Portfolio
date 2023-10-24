@@ -348,7 +348,8 @@ elif choose == "Projects":
         text_column, image_column = st.columns((3,1))
         with text_column:
             st.subheader("FashionMNIST: A Deep Dive into JAX Modeling")
-            st.write("*Ongoing Project : First time trying jax library with the famous fashion MNIST dataset. *")
+            st.write("*First time trying JAX , FLAX and OPTAX libraries with the famous fashion MNIST dataset. *")
+            mention(label="Github Code", icon="github", url="https://github.com/berrejebamen/Mnist_Using_Jax_Flax",)
         with image_column:
             st.image(img_jax)
      
