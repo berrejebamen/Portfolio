@@ -263,7 +263,7 @@ elif choose == "Experience":
             st.markdown("""
             - Developing a comparative study of transformer-based language models on ADAD (M&C's project) specifications understanding
             - Browsing the state-of-the-art of LLMs Research 
-            - Training GPT on the company's  text data 
+            - Using GPT on the company's  text data (openAI API)
             `Python` `Pytorch` `NLTK` `Confluence` `T5` `GPT` `BERT` `ALBERT` `Langchain` `Streamlit`
             """)
     with st.container():
